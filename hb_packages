@@ -1,0 +1,17 @@
+curl
+docker-completion
+docker-compose-completion
+fx
+fzf
+gnu-tar
+htop
+jq
+neovim
+node
+python
+the_silver_searcher
+xidel
+yarn
+youtube-dl
+zsh
+zsh-completions
