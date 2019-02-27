@@ -4,6 +4,8 @@ docker-compose-completion
 fx
 fzf
 gnu-tar
+lynx
+rsync
 htop
 jq
 neovim
