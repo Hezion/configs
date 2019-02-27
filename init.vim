@@ -4,6 +4,7 @@ call plug#begin('~/.local/share/nvim/plugged')
 Plug 'moby/moby' , {'rtp': '/contrib/syntax/vim/'}
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
+Plug 'TaDaa/vimade'
 Plug 'mhinz/vim-signify'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'itchyny/lightline.vim'
