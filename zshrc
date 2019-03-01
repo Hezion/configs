@@ -18,6 +18,7 @@ alias fuckSVN="find . -depth -name .svn -exec rm -fr {} \;"
 alias gitwho="git config --get user.name; git config --get user.email"
 alias dgit="git config user.name 'David'; git config user.email 'xxxxxx@gmail.com'"
 alias wgit="git config --unset user.email; git config --unset user.name"
+alias dip="lsof -iTCP -sTCP:LISTEN"
 
 export PATH=/Users/david/bin:$PATH
 export LC_ALL=en_US.UTF-8
