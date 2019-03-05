@@ -2,7 +2,6 @@ set rtp+=/usr/local/opt/fzf
 
 call plug#begin('~/.local/share/nvim/plugged')
 Plug 'moby/moby' , {'rtp': '/contrib/syntax/vim/'}
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'scrooloose/nerdcommenter'
 Plug 'TaDaa/vimade'
 Plug 'mhinz/vim-signify'
@@ -51,7 +50,6 @@ noremap <leader>n za
 noremap <leader>b :set nu!<bar>set rnu!<cr>
 map <c-n> <c-w><
 map <c-m> <c-w>>
-noremap qq :NERDTreeToggle
 map <Leader>y "*y
 map <Leader>p "*p
 
