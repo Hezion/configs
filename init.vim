@@ -48,6 +48,7 @@ let mapleader="\<space>"
 noremap <leader>m zf
 noremap <leader>n za
 noremap <leader>b :set nu!<bar>set rnu!<cr>
+noremap qq :Files
 map <c-n> <c-w><
 map <c-m> <c-w>>
 map <Leader>y "*y
