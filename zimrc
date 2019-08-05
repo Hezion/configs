@@ -81,7 +81,7 @@ zhighlighters=(main brackets cursor)
 #
 
 # Load these ssh identities with the ssh module
-zssh_ids=(personal work)
+zssh_ids=(id_ed25519 home_ed25519)
 
 #
 # Pacman

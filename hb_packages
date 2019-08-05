@@ -4,13 +4,17 @@ docker-compose-completion
 fx
 fzf
 gnu-tar
+git
+go
 lynx
 rsync
 htop
 jq
 neovim
 node
+nmap
 python
+rsync
 the_silver_searcher
 tidy-html5
 tree

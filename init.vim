@@ -20,6 +20,7 @@ Plug 'w0rp/ale'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'morhetz/gruvbox'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 set termguicolors
@@ -35,6 +36,7 @@ set cursorline
 set wildmode=longest:full,full
 set rnu
 set hidden
+set path+=**
 
 let g:ale_fixers = {
 \   'javascript': ['eslint'],
