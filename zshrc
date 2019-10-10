@@ -37,8 +37,6 @@ export ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 # Start zim
 [[ -s ${ZIM_HOME}/init.zsh ]] && source ${ZIM_HOME}/init.zsh
 
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
